@@ -1,0 +1,9 @@
+{
+    "register_url": "https://dev.profteam.su/registration",
+    "register_login": "Tessid",
+    "register_email": "sjdhfk@mail.ru",
+    "register_password": "Passdfsword1",
+    "register_surname" : "Иванов",
+    "register_name" : "Иван",
+    "register_patronymic" : "Иванович"
+}
