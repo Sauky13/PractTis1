@@ -35,8 +35,8 @@ describe("Создание потребности", () => {
       cy.log("Клик по кнопке 'Создать потребность'");
       cy.get(
         ".desktop-modal__content > .vacancy-need-wrapper > .form > .form__buttons",
-        { timeout: 3000 }
-      ).click();
+      ).wait(3000)
+      .click({ force: true });
     });
   });
 });

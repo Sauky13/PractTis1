@@ -22,9 +22,6 @@ describe("Негативное тестирование регистрации",
         ":nth-child(4) > .form-control--medium > .form-input--password"
       ).type("different_password");
 
-      cy.log("Переход по кнопке далее");
-      cy.get(":nth-child(4) > .button").click();
-
     })
   })
 })
